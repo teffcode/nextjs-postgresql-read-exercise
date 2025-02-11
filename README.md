@@ -15,3 +15,7 @@ Also, to create the project:
 1. `npx create-next-app nextjs-postgresql-read-exercise`.
 2. `cd nextjs-postgresql-read-exercise`.
 3. `npm install pg`.
+
+Don´t forget to add a `.env.local` file w this:
+
+`DATABASE_URL=postgresql://estefanyaguilar:password@localhost:5432/db_name;`
